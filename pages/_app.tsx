@@ -1,7 +1,7 @@
-import '../styles/globals.css'
-import '../styles/reset.css'
+import 'src/styles/globals.css'
+import 'src/styles/reset.css'
 import { ThemeProvider } from 'styled-components'
-import { theme } from '../styles/theme'
+import { theme } from 'src/styles/theme'
 import type { AppProps } from 'next/app'
 
 const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {

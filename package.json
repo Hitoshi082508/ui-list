@@ -11,7 +11,7 @@
     "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "format": "prettier --write .",
     "test-all": "npx yarn-run-all lint check-types format lint:fix",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -s ./src",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
@@ -19,6 +19,7 @@
     "next": "12.0.10",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
