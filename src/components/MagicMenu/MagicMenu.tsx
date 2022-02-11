@@ -107,3 +107,7 @@ export const MagicMenu = styled(FCMagicMenu)`
     transform: translateX(calc(70px * 4));
   }
 `
+// A ~ B AがtrueだったときにBにスタイルを当てる
+
+//calc 異なる単位で計算することができる
+//例えば 100% - 100px
